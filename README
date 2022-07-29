@@ -1,13 +1,13 @@
 This version can be compiled using perl strawberry : https://strawberryperl.com/
 i used the portable version 64bit.
 
-run the **portableshell.bat** in your command shell once you have unpacked the files.
+run the portableshell.bat in your command shell once you have unpacked the files.
 
 1)install PAR::Packer
->perl -MCPAN -e "install PAR::Packer" 
+perl -MCPAN -e "install PAR::Packer" 
 
 2) install App::PP::Autolink
->perl -MCPAN -e "install App::PP::Autolink"
+perl -MCPAN -e "install App::PP::Autolink"
 
 3) compile the script
->pp_autolink -o sendEmail.exe sendEmail.pl
+pp_autolink -o sendEmail.exe sendEmail.pl
